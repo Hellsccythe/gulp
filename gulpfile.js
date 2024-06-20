@@ -36,6 +36,3 @@ exports.sass = compilaSass;
 exports.watch = function() {
     gulp.watch('./source/styles/*.scss', gulp.series(compilaSass));
 }
-
-// exports.default = gulp.series(funcaoPadrao, dizOi)
-// exports.dizOi = dizOi
